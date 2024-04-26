@@ -1,0 +1,38 @@
+footer{
+    background-color: black;
+    padding: 80px 80px 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    margin-bottom: 140px;
+}
+.footer-headline{
+    font-size: 60px;
+}
+.contact-button{
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 80px;
+    font-size: 24px;
+}
+.footer-bottom-container{
+    display: flex;
+    justify-content: space-between;
+}
+.build-with{
+    font-size: 18px;
+}
+.social-media-handler{
+    display: flex;
+    gap: 30px;
+}
+.footer-bottom-container a{
+    color: white;
+}

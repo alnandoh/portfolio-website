@@ -1,0 +1,52 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: black;
+  background-color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: 200ms ease-in;
+}
+
+a:hover{
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section{
+  margin-block: 160px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.container{
+  padding-inline: 60px;
+}
+
+
+.page-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}

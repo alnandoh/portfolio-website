@@ -1,0 +1,25 @@
+.sidebar{
+    position: fixed;
+    padding-left: 25px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 45%;
+    width: 360px;
+    height: 95px;
+    transform: translateX(250px);
+    background-color: black;
+    color: white;
+    border-radius: 100px 0 0 100px;
+    overflow: hidden;
+    transition: 300ms ease-in-out;
+}
+.sidebar p{
+    font-size: 33px;
+}
+.sidebar:hover{
+    width: 360px;
+    transform: translateX(0px);
+}

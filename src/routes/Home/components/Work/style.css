@@ -1,0 +1,42 @@
+.work-container{
+    display: flex;
+    flex-direction: column;
+}
+hr.work{
+    border: 1px solid grey;
+    margin-block: 40px;
+}
+.work-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+h3{
+    font-size: 56px;
+}
+.work-categories{
+    display: flex;
+    gap: 30px;
+}
+
+.work-button{
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border: 1px solid;
+    transition: 200ms ease-in;
+    margin-right: 70px;
+}
+
+.work-button:hover{
+    transform: translate(15%, -15%);
+    background-color: black;
+}

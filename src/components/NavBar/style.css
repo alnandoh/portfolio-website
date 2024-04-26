@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-inline: 80px;
+    background-color: transparent;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 100px;
+}

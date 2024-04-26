@@ -1,0 +1,23 @@
+.side-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 300ms ease-in;
+}
+
+.side-nav-menu{
+    color: white;
+    font-size: 48px;
+}
+
+.open{
+    transform: translateX(0);
+}

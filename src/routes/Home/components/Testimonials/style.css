@@ -1,0 +1,26 @@
+.testimonial-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.testimonial-text{
+    font-size: 28px;
+}
+.reviewer{
+    display: flex;
+    gap: 15px;
+}
+.reviewer-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.reviewer-name{
+    font-weight: 600;
+}

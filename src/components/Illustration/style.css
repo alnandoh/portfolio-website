@@ -1,0 +1,26 @@
+.illustration{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-row1, .img-row2{
+    display: flex;
+    gap: 40px;
+}
+
+.img-row1{
+    transform: translateX(-200px);
+}
+.img-row2{
+    transform: translateX(-350px);
+}
+
+.work-image-container{
+    min-width: 440px;
+    padding: 30px 40px;
+    background-color: rgba(200, 200, 200, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
